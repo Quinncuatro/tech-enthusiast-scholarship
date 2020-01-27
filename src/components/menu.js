@@ -13,7 +13,7 @@ export default () => (
           <p><Link to="/#scroll-application">Application</Link></p>
         </td>
         <td width="487"> 
-          <p>The Henry Quinn Tech Enthusiast Scholarship awards $500 to two East Hampton High School seniors intending pursue a career in computer science or a related field.</p>
+          <p>The Henry Quinn Tech Enthusiast Scholarship awards $500 to two East Hampton High School seniors intending to pursue a career in computer science or a related field.</p>
           <p>This is for the new group of students hanging out in the library teaching each other how to traverse networks, set up game servers for their friends, and otherwise create their own curriculum.</p>
         </td>
       </tr>
