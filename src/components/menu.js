@@ -11,6 +11,7 @@ export default () => (
           <p><Link to="/#scroll-top">Home</Link></p>
           <p><Link to="/#scroll-about">About</Link></p>
           <p><Link to="/#scroll-application">Application</Link></p>
+          <p><Link to="/#scroll-contact">Contact</Link></p>
         </td>
         <td width="487"> 
           <p>The Henry Quinn Tech Enthusiast Scholarship awards $500 to two East Hampton High School seniors intending to pursue a career in computer science or a related field.</p>
