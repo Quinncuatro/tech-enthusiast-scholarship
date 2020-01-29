@@ -10,10 +10,14 @@ export default () => (
         </td>
         <td width="487"> 
           <p>Questions? Comments? Drop me a line.</p>
-          <form name="Contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
-            <p class="hidden">
-              <label>What is your favorite movie and why is it Rampart? <input type="text" name="bot-field"/></label>
-            </p>
+          <form name="contact" method="post" netlify-honeypot="bot-field"   data-netlify-recaptcha="true" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <div hidden>
+              <label>
+                What is your favorite movie and why is it rampart?{' '}
+                <input name="bot-field" />
+              </label>
+            </div>
             <p>
               <label>Name: <input type="text" name="name" /></label>   
             </p>
@@ -28,7 +32,6 @@ export default () => (
               <button type="submit">Send</button>
             </p>
           </form>
-        
         </td>
       </tr>
     </table>
