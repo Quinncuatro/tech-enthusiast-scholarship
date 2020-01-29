@@ -10,7 +10,7 @@ export default () => (
         </td>
         <td width="487"> 
           <p>Questions? Comments? Drop me a line.</p>
-          <form name="contact" method="post" netlify-honeypot="bot-field"   data-netlify-recaptcha="true" data-netlify="true">
+          <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <div hidden>
               <label>
@@ -27,7 +27,6 @@ export default () => (
             <p>
               <label>Message: <textarea name="message"></textarea></label>
             </p>
-            <div data-netlify-recaptcha="true"></div>
             <p>
               <button type="submit">Send</button>
             </p>
