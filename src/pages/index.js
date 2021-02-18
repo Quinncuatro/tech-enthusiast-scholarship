@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Menu from "../components/menu"
 import About from "../components/about"
 import Application from "../components/application"
-import Contact from "../components/contact"
+import ContactForm from "../components/contact-form"
 import Footer from "../components/footer"
 import styles from "./index.module.css"
 
@@ -12,7 +12,7 @@ export default () =>  (
     <Menu />
     <About />
     <Application />
-    <Contact />
+    <ContactForm />
     <Footer />
   </Layout>
 )

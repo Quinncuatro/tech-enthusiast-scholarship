@@ -11,9 +11,10 @@ export default () => (
           Thanks
         </td>
         <td width="487"> 
-          <h2>Hey, thanks!</h2>
-          <p>Your form submission has been received. I'll do my best to get back to you soon.</p>
-          <p>&#8592; <Link to="/">Head back to Test.TechEnthusiastScholarship.com</Link></p>
+          <h2>Hey, thanks for applying!</h2>
+          <p>Once the submission window closes, I'll read through all of the applications and select the winners.</p>
+          <p>Can't wait to present the scholarship award to two of you on Senior Awards Night!</p>
+          <p>&#8592; <Link to="/">Head back to TechEnthusiastScholarship.com</Link></p>
         </td>
       </tr>
     </table>

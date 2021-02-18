@@ -10,11 +10,11 @@ export default () => (
         </td>
         <td width="487"> 
           <p>Questions? Comments? Drop me a line.</p>
-          <form name="contact" method="POST" action="/contact-thanks/" netlify-honeypot="bot-field" data-netlify="true">
-            <input type="hidden" name="form-name" value="contact" />
+          <form name="contact" method="POST" action="/contact-form-thanks/" netlify-honeypot="bot-field" data-netlify="true">
+            <input type="hidden" name="form-name" value="ContactForm" />
             <div hidden>
               <label>
-                What is your favorite movie and why is it rampart?{' '}
+                What's your favorite movie and why is it rampart?{' '}
                 <input name="bot-field" />
               </label>
             </div>

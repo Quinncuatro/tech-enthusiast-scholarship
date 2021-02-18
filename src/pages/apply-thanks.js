@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import ContactFormThanks from "../components/contact-form-thanks"
+import ApplyFormThanks from "../components/apply-form-thanks"
 import styles from "./index.module.css"
 
 export default () =>  (
   <Layout>
-    <ContactFormThanks />
+    <ApplyFormThanks />
   </Layout>
 )
