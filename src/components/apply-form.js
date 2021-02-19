@@ -2,7 +2,7 @@ import React from "react"
 
 export default () => (
   <div>
-    <form name="contact" method="POST" action="/apply-form-thanks/" netlify-honeypot="bot-field" data-netlify="true">
+    <form name="apply" method="POST" action="/apply-form-thanks/" netlify-honeypot="bot-field" data-netlify="true">
       <input type="hidden" name="form-name" value="ApplyForm" />
       <div hidden>
         <label>
