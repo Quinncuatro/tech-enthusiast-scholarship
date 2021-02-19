@@ -11,7 +11,7 @@ export default () => (
         </td>
         <td width="487">
           <p>Made with <span className={footerStyles.heart}>&#10084;</span> in New Haven by <a href="https://henryneeds.coffee">Henry Quinn</a>.</p>
-          <p>Modeled after my <a href="https://crashthebot.net/FirstSite">first site</a>, built at EHHS.</p>
+          <p>Modeled after one of my <a href="https://crashthebot.net/FirstSite">first sites</a>, built at EHHS.</p>
         </td>
       </tr>
     </table>
