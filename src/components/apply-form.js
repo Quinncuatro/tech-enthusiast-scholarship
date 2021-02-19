@@ -2,7 +2,7 @@ import React from "react"
 
 export default () => (
   <div>
-    <form name="apply" method="POST" action="/apply-thanks/" netlify-honeypot="bot-field" data-netlify="true">
+    <form name="apply" method="POST" action="/apply-thanks/" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
       <input type="hidden" name="form-name" value="apply" />
       <div hidden>
         <label>
