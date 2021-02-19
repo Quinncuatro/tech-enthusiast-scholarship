@@ -11,7 +11,7 @@ export default () => (
         <td width="487"> 
           <p>Questions? Comments? Drop me a line.</p>
           <form name="contact" method="POST" action="/contact-thanks/" netlify-honeypot="bot-field" data-netlify="true">
-            <input type="hidden" name="form-name" value="ContactForm" />
+            <input type="hidden" name="form-name" value="contact" />
             <div hidden>
               <label>
                 What's your favorite movie and why is it rampart?{' '}

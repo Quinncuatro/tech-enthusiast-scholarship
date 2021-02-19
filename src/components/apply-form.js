@@ -3,7 +3,7 @@ import React from "react"
 export default () => (
   <div>
     <form name="apply" method="POST" action="/apply-thanks/" netlify-honeypot="bot-field" data-netlify="true">
-      <input type="hidden" name="form-name" value="ApplyForm" />
+      <input type="hidden" name="form-name" value="apply" />
       <div hidden>
         <label>
           What's your favorite movie and why is it rampart?{' '}
