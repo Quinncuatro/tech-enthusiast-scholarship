@@ -19,14 +19,15 @@ export default () => (
               </label>
             </div>
             <p>
-              <label>Name: <input type="text" name="name" /></label>   
+              <label>Name: <input type="text" name="name" required /></label>   
             </p>
             <p>
-              <label>Email: <input type="email" name="email" /></label>
+              <label>Email: <input type="email" name="email" required /></label>
             </p>
             <p>
-              <label>Message: <textarea name="message"></textarea></label>
+              <label>Message: <textarea name="message" required></textarea></label>
             </p>
+            <div data-netlify-recaptcha="true"></div>
             <p>
               <button type="submit">Send</button>
             </p>

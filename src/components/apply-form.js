@@ -46,6 +46,7 @@ export default () => (
             <p>
               <textarea rows="3" cols="55" name="dream-tech" required></textarea>
             </p>
+            <div data-netlify-recaptcha="true"></div>
             <p>
               <button type="submit">Send</button>
             </p>
